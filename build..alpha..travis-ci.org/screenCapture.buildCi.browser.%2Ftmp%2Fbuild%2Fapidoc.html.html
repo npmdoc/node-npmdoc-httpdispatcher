@@ -54,12 +54,50 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.httpdispatcher">module httpdispatcher</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.httpdispatcher.httpdispatcher">
+            function <span class="apidocSignatureSpan"></span>httpdispatcher
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.httpdispatcher" id="apidoc.module.httpdispatcher">module httpdispatcher</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.httpdispatcher.httpdispatcher" id="apidoc.element.httpdispatcher.httpdispatcher">
+        function <span class="apidocSignatureSpan"></span>httpdispatcher
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">httpdispatcher = function () {
+	this.listeners = {
+		'head'  : [ ],
+		'get'   : [ ],
+		'post'  : [ ],
+		'put'   : [ ],
+		'delete': [ ],
+		'options': [ ]
+	};
+	this.filters            = { before: [ ], after: [ ] };
+	this.errorListener      = function(req, res) {
+		res.writeHead(404);
+		res.end();
+	};
+	this.staticFolderPrefix = '/static';
+	this.staticDirname      = undefined;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
