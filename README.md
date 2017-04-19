@@ -1,9 +1,14 @@
-# api documentation for  [httpdispatcher (v2.1.0)](https://github.com/alberto-bottarini/httpdispatcher#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-httpdispatcher.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-httpdispatcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-httpdispatcher.svg)](https://travis-ci.org/npmdoc/node-npmdoc-httpdispatcher)
+# npmdoc-httpdispatcher
+
+#### api documentation for  [httpdispatcher (v2.1.0)](https://github.com/alberto-bottarini/httpdispatcher#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-httpdispatcher.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-httpdispatcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-httpdispatcher.svg)](https://travis-ci.org/npmdoc/node-npmdoc-httpdispatcher)
+
 #### A simple class allows developer to have a clear dispatcher for dynamic pages and static resources.
 
-[![NPM](https://nodei.co/npm/httpdispatcher.png?downloads=true)](https://www.npmjs.com/package/httpdispatcher)
+[![NPM](https://nodei.co/npm/httpdispatcher.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/httpdispatcher)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-httpdispatcher/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-httpdispatcher_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-httpdispatcher/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-httpdispatcher/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-httpdispatcher/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-httpdispatcher/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-httpdispatcher/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-httpdispatcher/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Alberto Bottarini",
-        "email": "alberto.bottarini@gmail.com",
         "url": "http://www.albertobottarini.com"
     },
     "bugs": {
@@ -45,13 +49,11 @@
     "main": "httpdispatcher.js",
     "maintainers": [
         {
-            "name": "alberto-bottarini",
-            "email": "alberto.bottarini@gmail.com"
+            "name": "alberto-bottarini"
         }
     ],
     "name": "httpdispatcher",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "url": "git+https://github.com/alberto-bottarini/httpdispatcher.git",
         "type": "git"
@@ -60,16 +62,6 @@
     "version": "2.1.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module httpdispatcher](#apidoc.module.httpdispatcher)
-
-
-
-# <a name="apidoc.module.httpdispatcher"></a>[module httpdispatcher](#apidoc.module.httpdispatcher)
 
 
 
