@@ -1,6 +1,6 @@
 # npmdoc-httpdispatcher
 
-#### api documentation for  [httpdispatcher (v2.1.0)](https://github.com/alberto-bottarini/httpdispatcher#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-httpdispatcher.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-httpdispatcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-httpdispatcher.svg)](https://travis-ci.org/npmdoc/node-npmdoc-httpdispatcher)
+#### basic api documentation for  [httpdispatcher (v2.1.0)](https://github.com/alberto-bottarini/httpdispatcher#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-httpdispatcher.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-httpdispatcher) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-httpdispatcher.svg)](https://travis-ci.org/npmdoc/node-npmdoc-httpdispatcher)
 
 #### A simple class allows developer to have a clear dispatcher for dynamic pages and static resources.
 
@@ -59,7 +59,8 @@
         "type": "git"
     },
     "scripts": {},
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
